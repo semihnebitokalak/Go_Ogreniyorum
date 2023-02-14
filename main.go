@@ -11,6 +11,7 @@ func main() {
 	Toplama()
 	Çikartma()
 	Üsalma()
+	değişkenler()
 }
 func Toplama() {
 
@@ -37,4 +38,19 @@ func Çikartma() {
 func Üsalma() {
 	c := math.Pow10(2) //burda 10 sayisinin üssünü aldik.
 	fmt.Println(c)
+}
+
+func değişkenler() {
+	var name string
+	name = "Semih"
+
+	var age int
+	age = 18
+
+	var uStudent bool
+	uStudent = true
+
+	fmt.Println(name)
+	fmt.Println(age)
+	fmt.Println(uStudent)
 }
