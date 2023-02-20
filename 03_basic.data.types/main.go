@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 
-	var name = "Semih"
+	var name = "Semih Nebi"
 	var age = 19
 	var isMarried = false
 
