@@ -12,6 +12,7 @@ func main() {
 	Çikartma()
 	Üsalma()
 	değişkenler()
+
 }
 func Toplama() {
 
@@ -41,16 +42,39 @@ func Üsalma() {
 }
 
 func değişkenler() {
-	var name string
+	var name string // name := Semih
 	name = "Semih"
 
-	var age int
+	var age int // age := 18
 	age = 18
 
-	var uStudent bool
+	var uStudent bool // uStudent := true
 	uStudent = true
 
 	fmt.Println(name)
 	fmt.Println(age)
 	fmt.Println(uStudent)
+	/*
+		     var name string
+			 fmt.Println(name)       bunun çıktısı bana hiç bir şey vermez.
+
+			 var age int
+			 fmt.Println(age)       bunun çıktısı bana 0 değerini verir.
+
+			 Note = string için zero value değeri boştur, integer için zero value değeri 0 dır,bool'un zero value değeri "false"dur.
+
+
+
+
+	*/
+
+	/*
+		fmt.Printf("%T", name)
+		fmt.Printf("%T", age)
+		fmt.Printf("%T", uStudent)    Printf ile atadığımız değişkenlerin türlerini öğrenebiliriz.
+
+	*/
+
+	// option + shift + a komutu seçtiğimiz kodları yorum satırına alır.
+
 }
