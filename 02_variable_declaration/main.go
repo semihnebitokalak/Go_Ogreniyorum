@@ -4,8 +4,8 @@ import "fmt"
 
 func main() {
 
-	var name1 string = "Nebi"   // var - name of variable - static type
-	fmt.Println("Hello", name1) // var name , surname string = "Semih Nebi " , "Tokalak"
+	var name1 string = "Semih Nebi" // var - name of variable - static type
+	fmt.Println("Hello", name1)     // var name , surname string = "Semih Nebi " , "Tokalak"
 
 	var name string     // var name string = "Semih Nebi"
 	name = "Semih Nebi" // name := "Semih Nebi"
