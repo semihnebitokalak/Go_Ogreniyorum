@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 
-	var name, age, height, weight, isMarried = "Semih", 18, 196, 85, false
+	var name, age, height, weight, isMarried, shoesnumber = "Semih", 18, 196, 85, false, 46.5
 
 	//name,age,height,weight,isMarried = "Semih",18,196,85,false
 
@@ -13,6 +13,7 @@ func main() {
 	fmt.Println(height)
 	fmt.Println(weight)
 	fmt.Println(isMarried)
+	fmt.Println(shoesnumber)
 
 	/*
 		     var name string
