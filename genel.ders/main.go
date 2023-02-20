@@ -42,6 +42,7 @@ func Üsalma() {
 }
 
 func değişkenler() {
+
 	var name string // name := Semih
 	name = "Semih"
 
