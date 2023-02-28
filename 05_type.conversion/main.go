@@ -89,7 +89,7 @@ func main() {
 		// type corversion yöntemi ile bir string i bir integera dönüştüremeyiz. */
 
 	num1 := 106
-	str1 := string(num1)
+	str1 := string(106)
 
 	fmt.Printf("%v %T \n", num1, num1)
 	fmt.Println()
